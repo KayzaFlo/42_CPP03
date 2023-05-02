@@ -6,19 +6,20 @@
 #    By: fgeslin <fgeslin@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/31 13:26:56 by fgeslin           #+#    #+#              #
-#    Updated: 2023/05/02 15:32:17 by fgeslin          ###   ########.fr        #
+#    Updated: 2023/05/02 15:32:27 by fgeslin          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #####	CONFIG		############################################################
-NAME		:= ClapTrap
+NAME		:= ScavTrap
 CC			:= c++
 RM			:= rm -f
 CFLAGS		= -Wall -Wextra -Werror -std=c++98
 
 #####	SOURCES		############################################################
 SRC			=	main.cpp \
-				ClapTrap.cpp
+				ClapTrap.cpp \
+				ScavTrap.cpp
 OBJ			=	$(SRC:.cpp=.o)
 
 #####	Makefile  objs		###################################################
